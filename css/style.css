@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+  .navbar {
+      margin-bottom: 0px !important;
+      border-radius: 0;
+    }
+
+.navbar-inverse{ background-color:#FF5F38 !important; border-color:rgb(243, 52, 5) !important ;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{ background-color: rgb(255, 95, 56) !important;}
+/*.navbar-inverse li{ border-right:solid 1px #fff !important; }*/
+.navbar-inverse .navbar-nav>li>a{ color:#fff !important;}
+.navbar-inverse .navbar-nav>li>a:hover{ color:#000000 !important;}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{  background-color:#FF5F38 !important;}
